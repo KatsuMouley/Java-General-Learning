@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  * @version 1.0 Mar 2023
  * @author Geucimar Briatore
  */
-public class Prompt {
+public class PromptCommand {
 
 	/**
 	 * Imprime a mensagem enviada no console.
