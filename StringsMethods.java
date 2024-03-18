@@ -5,7 +5,7 @@ public class StringsMethods {
         // boolean result = name.equals("Katsu");
         // int result = name.length();
         // char result = name.charAt(0);
-        // int result = name.indexOf("a");
+        // int result = name.indexOf(" ");
         // int result = name.isEmpty();
         // String result = name.toUpperCase();
         // String result = name.toLowerCase();

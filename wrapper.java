@@ -24,6 +24,9 @@ public class wrapper {
         if (a==true) {
             System.out.println("This is true");
         }
+        String num1 = "15.5";
+        Double num2 = Double.parseDouble(num1);
+        System.out.println(num2);
     }
 
 }
