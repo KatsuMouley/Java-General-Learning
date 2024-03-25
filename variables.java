@@ -3,7 +3,7 @@ public class variables {
         //primitives
         int Inteiros = 15;// 32 bits
         System.out.println(Inteiros);
-        long Longos = 15;//64 bits
+        long Longos = 15268028235L;//64 bits
         System.out.println(Longos);
         float Floats = 1.6f;// 32 bits
         System.out.println(Floats);
