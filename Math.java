@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class math {
+public class Math {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         double x = 15.52;

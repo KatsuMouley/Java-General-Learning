@@ -1,4 +1,4 @@
-public class printf{
+public class Printf{
 
     public static void main(){
         boolean myBoolean = true;

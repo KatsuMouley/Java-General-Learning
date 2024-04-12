@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class forEach {
+public class ForEach {
     public static void main(String[] args) {
         String[] animals = {"bird", "dog", "cat"};
         for(String i : animals){

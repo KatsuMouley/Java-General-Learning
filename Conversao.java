@@ -1,4 +1,4 @@
-public class conversao {
+public class Conversao {
     public static void main(String[] args) {
         // Contas matemáticas em java não tem tanta diferença do básico. / % - + continuam sendo utilizados normalmente.
         double Decimals = 15.6;

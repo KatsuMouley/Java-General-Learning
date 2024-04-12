@@ -1,4 +1,4 @@
-public class wrapper {
+public class Wrapper {
     public static void main(String[] args) {
         // wrapper classes = provides a way to use primitive data types as reference
         // data types

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public class vetores {
+public class Vetores {
     public static void main(String[] args) {
         Scanner Input = new Scanner(System.in);
         int[] vetores = new int[] { 1, 2, 3, 4, 5 };

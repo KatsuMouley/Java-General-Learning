@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class arrays {
+public class Arrays {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         String[][] words = new String[3][3];

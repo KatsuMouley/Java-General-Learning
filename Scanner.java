@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class scanner {
+public class Scanner {
     public static void main (String[] args){
         Scanner reader = new Scanner(System.in);
         System.out.printf("How old are you: ");
