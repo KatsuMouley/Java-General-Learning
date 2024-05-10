@@ -16,5 +16,6 @@ public class StaticKeyWord {
 		Friend friend3 = new Friend("Patrick");
 		
 		System.out.println(Friend.numberOfFriends);
+        System.out.println(friend1.name+'\n'+friend2.name+'\n'+friend3.name+'\n');
     }
 }
