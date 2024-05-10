@@ -1,8 +1,7 @@
 package Objects;
 
 public class Car extends Vehicle {
-    
-
+	public String name; 
 	public String make = "Chevrolet";
 	public String model = "Corvette";
 	public int year = 2020;
@@ -10,6 +9,9 @@ public class Car extends Vehicle {
 	public double price = 50000.00;
 	
     public Car(){}
+	public Car(String name){
+		this.name = name;
+	}
 
 	public void drive() {
 		System.out.println("You drive the car");
