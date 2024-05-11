@@ -46,20 +46,20 @@ public class Vetores {
         bakeryList.add("donuts");
         System.out.println(bakeryList);
         System.out.println(bakeryList.get(1));
-        System.err.println("-----------------------\n-----------------------\n-----------------------\n");
+        System.out.println("-----------------------\n-----------------------\n-----------------------\n");
         ArrayList<String> moviesToWatch = new ArrayList<String>();
         moviesToWatch.add("Avengers");
         moviesToWatch.add("Avatar");
         moviesToWatch.add("Five Nights at Freddys");
         System.out.println(moviesToWatch);
         System.out.println(moviesToWatch.get(2));
-        System.err.println("-----------------------\n-----------------------\n-----------------------\n");
+        System.out.println("-----------------------\n-----------------------\n-----------------------\n");
         ArrayList<String> toDoList = new ArrayList<String>();
         toDoList.add("Math task");
         toDoList.add("Study section");
         System.out.println(toDoList);
         System.out.println(toDoList.get(0));
-        System.err.println("-----------------------\n-----------------------\n-----------------------\n");
+        System.out.println("-----------------------\n-----------------------\n-----------------------\n");
         //2D array list
         ToBuyList.add(moviesToWatch);
         ToBuyList.add(toDoList);
@@ -67,7 +67,18 @@ public class Vetores {
         System.out.println(ToBuyList);
         System.out.println(ToBuyList.get(1));
         System.out.println(ToBuyList.get(1).get(0));
-        System.err.println("-----------------------\n-----------------------\n-----------------------\n");
+        System.out.println("-----------------------\n-----------------------\n-----------------------\n");
         Input.close();
+        //Can we add normal arrays to ArrayList?
+        //No, we can't add arrays inside an ArrayList. But we can use the "for()" method to add all the elements the array inside the ArrayList
+        //Ou seja, ArrayList e Array normais são dois tipos de dados diferentes
+        ArrayList<String> Id = new ArrayList<String>();
+        String[] ids = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
+        for(int i =0; i< ids.length; i++){
+            Id.add(ids[i]);
+        }
+        System.out.println(Id);
+        System.out.println("-----------------------\n-----------------------\n-----------------------\n");
+
     }
 }
