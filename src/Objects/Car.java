@@ -19,5 +19,12 @@ public class Car extends Vehicle {
 	}
 	public void brake() {
 		System.out.println("You step on the brakes");
+		
 	}	
+	
+    //When a method is abstract, we're forced to Override the method in the child class
+    @Override
+    public void start() {
+        System.out.println("the Car started to move");    
+    }
 }
