@@ -5,4 +5,8 @@ public class Dog extends Animal{
 	public void speak() {
 		System.out.println("The dog goes *bark*");
 	}
+	@Override
+	public void animalSpeak(){
+		System.out.println("*bark*");	
+	}
 }
