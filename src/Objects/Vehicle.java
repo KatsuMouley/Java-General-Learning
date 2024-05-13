@@ -7,7 +7,8 @@ public abstract class Vehicle {
     public double speed;
 
     public abstract void start();//Abstract methods does not specift a body
-    
+    public abstract void drive();
+    public abstract void brake();
     public void go(String Typename){
         System.out.println("The "+Typename+" is moving");
     }

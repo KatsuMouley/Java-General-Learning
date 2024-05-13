@@ -12,14 +12,16 @@ public class Car extends Vehicle {
     public Car(){}
 	public Car(String name){
 		this.name = name;
+		super.Typename = Typename;
 	}
 
+    @Override
 	public void drive() {
 		System.out.println("You drive the car");
 	}
+    @Override
 	public void brake() {
-		System.out.println("You step on the brakes");
-		
+		System.out.println("You step on the brakes of the car");	
 	}	
 	
     //When a method is abstract, we're forced to Override the method in the child class
