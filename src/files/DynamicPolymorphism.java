@@ -10,6 +10,11 @@ public class DynamicPolymorphism {
     public static void main(String[] args) {
         run();
     }
+    
+    // polymorphism = many shapes/forms;
+    // example = A Corvette is a Car that it's a Vehicle that it's an Object.
+    //
+    // Dynamic = After compilation (During running)
     public static void run() {
         Scanner scanner = new Scanner(System.in);
         Animal animal;
