@@ -14,7 +14,7 @@ public class human {
     void IMC() {
         double IdealWeight = this.weight / Math.pow(this.height, 2);
         if (IdealWeight <= 18.5) {
-           System.out.println(this.name +" esta abaixo do peso"); 
+            System.out.println(this.name +" esta abaixo do peso"); 
         } else if(18.6 <= IdealWeight & IdealWeight <= 24.9){
             System.out.println(this.name +" esta no peso Ideal");
         }else if(25 <= IdealWeight & IdealWeight <= 29.9){
